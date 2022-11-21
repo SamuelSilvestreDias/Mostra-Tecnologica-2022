@@ -1,0 +1,144 @@
+.section-perfil-usuario .perfil-usuario-body,
+.section-perfil-usuario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.section-perfil-usuario .perfil-usuario-header{
+width: 100%;
+display: flex;
+align-items: center;
+background: linear-gradient( #6B0D47, transparent);
+margin-bottom: 0.2rem;
+}
+.section-perfil-usuario .perfil-usuario-portada{
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 17rem;
+    background: linear-gradiente(45deg, #BC3CFF, #317FFF);
+    border-radius: 0 0 20px 20px;
+}
+.section-perfil-usuario .perfil-usuario-avatar{
+
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid #ffffff;
+    background-color: #dfe5f2;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #000;
+    position: absolute;
+    bottom: -40px;
+    left: 35%;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.section-perfil-usuario .perfil-usuario-avatar img{
+
+width: 100%;
+position: relative;
+left: 0px;
+
+}
+.section-perfil-usuario .perfil-usuario-avatar .boton-avatar{
+    position: absolute;
+    left: -2px;
+    top:-2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 12px #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section-perfil-usuario .perfil-usuario-body{
+width: 90%;
+}
+.section-perfil-usuario .perfil-usuario-body .titulo{
+
+    display: block;
+    width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+}
+
+.section-perfil-usuario .perfil-usuario-body .texto{
+color: #ffffff;
+font-size: 0.95rem;
+
+}
+
+.section-perfil-usuario .perfil-usuario-footer{
+
+    display: flex;
+    flex: wrap;
+    padding: 1.5rem 0.5rem;
+    box-shadow: 0 0 12px #000;
+    background-color:#6e3358;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.section-perfil-usuario .perfil-usuario-bio{
+display: flex;
+flex-wrap: wrap;
+color: #fff;
+padding: 1.5rem 0.5rem;
+box-shadow: 0 0 12px #000;
+background-color: #6e3358;
+border-radius: 15px;
+text-align: center;
+width: 100%;
+}
+
+
+.section-perfil-usuario .perfil-usuario-bio{
+margin-bottom: 1.25rem;
+text-align: center;
+}
+
+.section-perfil-usuario .lista-datos{
+    width: 50%;
+    list-style: none;
+}
+
+.section-perfil-usuario .lista-datos li{
+    padding: 5px 0;
+}
+.section-perfil-usuario .lista-datos li > .icono{
+    margin-right: 1rem;
+font-size: 1.2rem;
+vertical-align: middle;
+}
+
+.section-perfil-usuario .img1{
+display: flex;
+top: 60px;
+width: 200px;
+height: 200px;
+
+
+}
+
+.section-perfil-usuario .button a{
+
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #6B0D47;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
